@@ -1,0 +1,15 @@
+{
+  "manifest_version": 2,
+
+  "name": "WIFIRE AUTO",
+  "description": "This extension will get the username and password of a particular wifi network",
+  "version": "1.0",
+  "content_security_policy": "script-src 'self' https://cdn.firebase.com https://*.firebaseio.com; object-src 'self'",
+  "browser_action": {
+   "default_icon": "icon.png",
+   "default_popup": "wifire.html"
+  },
+  "permissions": [
+   "activeTab","identity","identity.email","storage"
+   ]
+}
