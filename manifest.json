@@ -11,5 +11,15 @@
   },
   "permissions": [
    "activeTab","identity","identity.email","storage"
-   ]
+   ],
+   "oauth2": {
+    // TODO(DEVELOPER): Change the line below to the OAuth Client ID you created as described in https://developer.chrome.com/apps/app_identity#google
+    "client_id": "205175772653-q6pb2rlt3snrv8usv3edkneicbl1ipcf.apps.googleusercontent.com",
+    "scopes": [
+      "https://www.googleapis.com/auth/userinfo.email",
+      "https://www.googleapis.com/auth/userinfo.profile"
+    ]
+  },
+  // TODO(DEVELOPER): Change the line below to your Chrome Extension's public key as described in https://developer.chrome.com/apps/app_identity#google
+  "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAscTMu3zodAjwWnT8a/JGSOXuV8MuJIbW/q1M36oebwNWBMAz6coFJUlV/N95lJrxU6MqoCIMR0QRC5UUOCA8C5fW8xAi9dBRWBkwG2GKsiKcL/uBCVXG3ZkXbDv4wdVYeA127fUATUuoRsUIN4zVNJmz1Ewpl9K43wWce+Q9LcDxwyMPKCe9LaW8LRVMOOWC93neN1khs3H0WJuL7o/5RZCth4fOT3KO5RpPEmu08wYabefMmf3TjfwEksXoWf0k5jev+1njhUmpZwWpBimAlVL2gQBpAmMShYoaesINqbTToN7O5CiIJCD8fEKYmy6afRvOyyz+vE/Lc7VcwTyGJQIDAQAB"
 }

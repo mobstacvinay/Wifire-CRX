@@ -1,0 +1,14 @@
+Item ID:	fbbokagdibkppmdpjpjmdgknnedffjah
+
+Public Key:
+
+MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAscTMu3zodAjwWnT8a/JG
+SOXuV8MuJIbW/q1M36oebwNWBMAz6coFJUlV/N95lJrxU6MqoCIMR0QRC5UUOCA8
+C5fW8xAi9dBRWBkwG2GKsiKcL/uBCVXG3ZkXbDv4wdVYeA127fUATUuoRsUIN4zV
+NJmz1Ewpl9K43wWce+Q9LcDxwyMPKCe9LaW8LRVMOOWC93neN1khs3H0WJuL7o/5
+RZCth4fOT3KO5RpPEmu08wYabefMmf3TjfwEksXoWf0k5jev+1njhUmpZwWpBimA
+lVL2gQBpAmMShYoaesINqbTToN7O5CiIJCD8fEKYmy6afRvOyyz+vE/Lc7VcwTyG
+JQIDAQAB
+
+Client ID
+205175772653-q6pb2rlt3snrv8usv3edkneicbl1ipcf.apps.googleusercontent.com
