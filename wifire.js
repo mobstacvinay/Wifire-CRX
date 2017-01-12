@@ -60,38 +60,4 @@ document.addEventListener('DOMContentLoaded', function() {
 	   console.log(data.password);	   
 	});
 	}
-	/*var provider = new firebase.auth.GoogleAuthProvider();
-	console.log(provider);
-var signIn = document.getElementById('onSignIn');
-    signIn.addEventListener('click', function() {
-    firebase.auth().signInWithPopup(provider).then(function(result) {
-      var token = result.credential.accessToken;
-      var user = result.user;
-		
-      console.log(token)
-      console.log(user)
-   }).catch(function(error) {
-      var errorCode = error.code;
-      var errorMessage = error.message;
-		
-      console.log(error.code)
-      console.log(error.message)
-   });
-  }, false);*/
-
-  /*var checkPageButton = document.getElementById('send');
-  checkPageButton.addEventListener('click', function() {
-      netname=document.getElementById('network');
-	  var ref = firebase.database().ref(userid);
-	//var ref = firebase.database().ref();
-	creds=document.getElementById('creds');
-	ref.on("value", function(snapshot) {
-	   var data=snapshot.val();
-	   console.log(data.phone);
-	   console.log(data.password);
-	   creds.innerHTML+=data.phone+" "+data.password;
-	}, function (error) {
-	   console.log("Error: " + error.code);
-	});
-  }, false);*/
 }, false);
