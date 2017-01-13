@@ -1,11 +1,6 @@
 <!DOCTYPE html>
 	<link rel="stylesheet" href="assets/bootstrap-v3/css/bootstrap.css">
 	<style>
-		#title{
-			background-color:#00ccff;
-			color:white;
-			height:30px;
-		}
 		.loginBtn {
 		  box-sizing: border-box;
 		  position: relative;
@@ -71,8 +66,10 @@
 		  background: #E74B37;
 		}
 	</style>
-    <div id='title'>Wifire Web</div>
-	<div id="inner-container" class="well">
+	<center>
+    <div id='title'><img id="titleimg" src="titleImage.jpeg" style="height:30px;width:260px"></img></div>
+	<br>
+	<div id="inner-container">
 		<button class="loginBtn loginBtn--google" id="gsignin">
 			Login with Google
 		</button>
@@ -82,7 +79,7 @@
 		<br>
 		<br>
 			<div id="image">
-				<center><img id="profile-pic" src="face.jpg"></img></center>
+				<center><img id="titleimg" src="wifireCenter.jpg" style="height:200px;width:250px"></img></center>
 			</div>
 			<div id="personal">
 			</div>
@@ -93,7 +90,6 @@
 			<input type="text" id="username" class="form-control" placeholder="Username"></input>
 		</div>
 		<br>
-		<br>
 		<small class="text-muted">PASSWORD</small>
 	    	<p>
 			<input id="password"
@@ -102,11 +98,11 @@
 		       		placeholder="Password">
 	    	</p>
 		<br>
-		<br>
 	<div>
 	<center><button id="send" class="btn btn-primary">CONNECT</button></center>
 	</div>
 	</div>
+	</center>
 	<script src="assets/jquery.min.js"></script>
 	<script src="assets/bootstrap-v3/js/bootstrap.js"></script>
 	<script src="assets/bootstrap-show-password.js"></script>
